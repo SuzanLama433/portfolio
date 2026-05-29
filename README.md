@@ -1,36 +1,42 @@
 <h1 align="center">Hi 👋, I'm Sujan Lama</h1>
 
 <h3 align="center">
-Passionate Developer • Problem Solver • Tech Explorer
+🚀 Python & Django Developer | 💻 Tech Explorer | 🔥 Problem Solver
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=Python+Developer;Full-Stack+Learner;Open-Source+Enthusiast;Always+Learning+New+Things" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Python+Developer;Django+Developer;Full-Stack+Learner;Open-Source+Enthusiast;Always+Learning+New+Things" />
+</p>
+
+<p align="center">
+  <img src="https://i.redd.it/n8agw6z2smyb1.gif" width="500"/>
 </p>
 
 ---
 
-## 🚀 About Me
+# 🚀 About Me
 
 - 🔭 Currently improving my development skills every day
-- 🌱 Learning **Full-Stack Development**
+- 🌱 Learning **Full-Stack Development & Django**
 - 💡 Love building real-world applications
 - ⚡ Passionate about solving problems with code
 - 🎯 Goal: Become a professional software developer
+- 🧠 Building backend applications using Django
+- 📚 Exploring new technologies daily
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,python,php,java,git,github,vscode,mysql" />
+<img src="https://skillicons.dev/icons?i=html,css,js,python,django,php,java,mysql,git,github,vscode" />
 
 </p>
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Stats
 
 <p align="center">
 
@@ -42,7 +48,7 @@ Passionate Developer • Problem Solver • Tech Explorer
 
 ---
 
-## 🔥 GitHub Streak
+# 🔥 GitHub Streak
 
 <p align="center">
 
@@ -52,7 +58,7 @@ Passionate Developer • Problem Solver • Tech Explorer
 
 ---
 
-## 📈 Contribution Graph
+# 📈 Contribution Graph
 
 <p align="center">
 
@@ -62,7 +68,7 @@ Passionate Developer • Problem Solver • Tech Explorer
 
 ---
 
-## 🏆 GitHub Trophies
+# 🏆 GitHub Trophies
 
 <p align="center">
 
@@ -72,37 +78,80 @@ Passionate Developer • Problem Solver • Tech Explorer
 
 ---
 
-## 🌐 Connect With Me
+# 🌐 Connect With Me
 
 <p align="center">
 
 <a href="https://facebook.com/suzann.tamang.204773">
-  <img src="https://skillicons.dev/icons?i=facebook" height="45" />
+  <img src="https://skillicons.dev/icons?i=facebook" height="50" />
 </a>
 
 <a href="https://instagram.com/">
-  <img src="https://skillicons.dev/icons?i=instagram" height="45" />
+  <img src="https://skillicons.dev/icons?i=instagram" height="50" />
 </a>
 
 <a href="https://linkedin.com/">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="45" />
+  <img src="https://skillicons.dev/icons?i=linkedin" height="50" />
 </a>
 
 <a href="https://github.com/sujanlama">
-  <img src="https://skillicons.dev/icons?i=github" height="45" />
+  <img src="https://skillicons.dev/icons?i=github" height="50" />
 </a>
 
 </p>
 
 ---
 
-## 👀 Profile Views
+# 👀 Profile Views
 
 <p align="center">
 
 <img src="https://komarev.com/ghpvc/?username=sujanlama&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 
 </p>
+
+---
+
+# 💻 Developer Quote
+
+<p align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+
+</p>
+
+---
+
+# 🐍 Contribution Snake
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/sujanlama/sujanlama/output/github-contribution-grid-snake.svg" />
+
+</p>
+
+---
+
+# ⚡ Fun Fact
+
+```python
+while True:
+    learn()
+    code()
+    build()
+    repeat()
+````
+
+---
+
+# 🚀 Featured Projects
+
+| Project                   | Description                    |
+| ------------------------- | ------------------------------ |
+| QR Code Generator         | Generate QR codes using Python |
+| Student Management System | OOP based Python project       |
+| Django Blog App           | Blog application using Django  |
+| Portfolio Website         | Responsive personal portfolio  |
 
 ---
 
