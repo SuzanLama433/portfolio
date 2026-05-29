@@ -61,9 +61,9 @@
 ## 🌐 Connect With Me  
 
 <p align="center">
-  <a href="https://www.facebook.com/sudip.lo.bon"><img src="https://img.icons8.com/fluency/48/facebook-new.png" width="40"></a>
-  <a href="https://www.instagram.com/lo_sudip/?hl=en"><img src="https://img.icons8.com/fluency/48/instagram-new.png" width="40"></a>
-  <a href="https://www.linkedin.com/in/sudip-lo-467bba382/?trk=opento_sprofile_details"><img src="https://img.icons8.com/fluency/48/linkedin.png" width="40"></a>
+  <a href="https://www.facebook.com/suzann.tamang.204773"><img src="https://img.icons8.com/fluency/48/facebook-new.png" width="40"></a>
+  <a href=""><img src="https://img.icons8.com/fluency/48/instagram-new.png" width="40"></a>
+  <a href=""><img src="https://img.icons8.com/fluency/48/linkedin.png" width="40"></a>
   
 </p>
 
@@ -73,5 +73,5 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 </p>
 
-✨ _Your README is now fully updated with your username **sudiplo**._  
+✨ _Your README is now fully updated with your username **sujanlama**._  
 🚀 _Send me your social media links if you want me to integrate them too!_
