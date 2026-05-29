@@ -1,77 +1,113 @@
-<h1 align="center">Hi there 👋, I'm Sujan</h1>
+<h1 align="center">Hi 👋, I'm Sujan Lama</h1>
+
+<h3 align="center">
+Passionate Developer • Problem Solver • Tech Explorer
+</h3>
 
 <p align="center">
-  Passionate Developer | Tech Explorer | Problem Solver  
-</p>
-
-<p align="center">
-  <img src="https://i.redd.it/n8agw6z2smyb1.gif" width="500" />
-</p>
-
----
-
-## 🚀 About Me  
-- 🔭 Improving my development skills every day  
-- 🌱 Currently learning **Full-Stack Development**  
-- 💡 I enjoy solving real-world challenges through code  
-- ⚡ Turning ideas into real applications is my passion  
-
----
-
-## 🛠 Tech Stack  
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=Python+Developer;Full-Stack+Learner;Open-Source+Enthusiast;Always+Learning+New+Things" />
 </p>
 
 ---
 
-## 📊 GitHub Stats  
+## 🚀 About Me
+
+- 🔭 Currently improving my development skills every day
+- 🌱 Learning **Full-Stack Development**
+- 💡 Love building real-world applications
+- ⚡ Passionate about solving problems with code
+- 🎯 Goal: Become a professional software developer
+
+---
+
+## 🛠️ Tech Stack
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=sudiplo&show_icons=true&theme=radical" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudiplo&layout=compact&theme=radical" />
+
+<img src="https://skillicons.dev/icons?i=html,css,python,php,java,git,github,vscode,mysql" />
+
 </p>
 
 ---
 
-## 🏆 GitHub Achievements  
+## 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sudiplo&theme=radical&no-frame=true&row=1&column=6" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=sujanlama&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujanlama&layout=compact&theme=tokyonight&hide_border=true" />
+
 </p>
 
 ---
 
-## 🔥 Real-Time Profile Views & Activity Tracker  
+## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sudiplo&style=for-the-badge&color=blue" />
-</p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sujanlama&theme=react-dark&hide_border=true" />
-</p>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sujanlama&theme=tokyonight&hide_border=true" />
 
----
-
-## 🌐 Connect With Me  
-
-<p align="center">
-  <a href="https://www.facebook.com/suzann.tamang.204773"><img src="https://img.icons8.com/fluency/48/facebook-new.png" width="40"></a>
-  <a href=""><img src="https://img.icons8.com/fluency/48/instagram-new.png" width="40"></a>
-  <a href=""><img src="https://img.icons8.com/fluency/48/linkedin.png" width="40"></a>
-  
 </p>
 
 ---
 
+## 📈 Contribution Graph
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sujanlama&theme=react-dark&hide_border=true" />
+
 </p>
 
-✨ _Your README is now fully updated with your username **sujanlama**._  
-🚀 _Send me your social media links if you want me to integrate them too!_
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=sujanlama&theme=algolia&no-frame=true&row=1&column=7" />
+
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://facebook.com/suzann.tamang.204773">
+  <img src="https://skillicons.dev/icons?i=facebook" height="45" />
+</a>
+
+<a href="https://instagram.com/">
+  <img src="https://skillicons.dev/icons?i=instagram" height="45" />
+</a>
+
+<a href="https://linkedin.com/">
+  <img src="https://skillicons.dev/icons?i=linkedin" height="45" />
+</a>
+
+<a href="https://github.com/sujanlama">
+  <img src="https://skillicons.dev/icons?i=github" height="45" />
+</a>
+
+</p>
+
+---
+
+## 👀 Profile Views
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=sujanlama&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+
+</p>
+
+---
+
+<p align="center">
+
+✨ <b>"Code. Learn. Build. Repeat."</b> ✨
+
+</p>
