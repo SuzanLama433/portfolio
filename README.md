@@ -97,29 +97,6 @@ while True:
 | Portfolio Website         | Responsive personal portfolio  |
 
 ---
----
-
-# 🌐 Connect With Me
-
-<p align="center">
-
-<a href="https://facebook.com/suzann.tamang.204773">
-  <img src="https://skillicons.dev/icons?i=facebook" height="50" />
-</a>
-
-<a href="https://instagram.com/">
-  <img src="https://skillicons.dev/icons?i=instagram" height="50" />
-</a>
-
-<a href="https://linkedin.com/">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="50" />
-</a>
-
-<a href="https://github.com/sujanlama">
-  <img src="https://skillicons.dev/icons?i=github" height="50" />
-</a>
-
-</p>
 
 ---
 
