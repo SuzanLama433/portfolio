@@ -72,10 +72,51 @@
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=sujanlama&theme=algolia&no-frame=true&row=1&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=suzanLama433&theme=algolia&no-frame=true&row=1&column=7" />
 
 </p>
 
+# 👀 Profile Views
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=sujanlama&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+
+</p>
+
+---
+
+# 💻 Developer Quote
+
+<p align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+
+</p>
+
+---
+# ⚡ Fun Fact
+
+```python
+while True:
+    learn()
+    code()
+    build()
+    repeat()
+````
+
+---
+
+# 🚀 Featured Projects
+
+| Project                   | Description                    |
+| ------------------------- | ------------------------------ |
+| QR Code Generator         | Generate QR codes using Python |
+| Vehicle Management System | MERN Stack                     |
+| Django Blog App           | Blog application using Django  |
+| Portfolio Website         | Responsive personal portfolio  |
+
+---
 ---
 
 # 🌐 Connect With Me
@@ -99,59 +140,6 @@
 </a>
 
 </p>
-
----
-
-# 👀 Profile Views
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=sujanlama&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
-
-</p>
-
----
-
-# 💻 Developer Quote
-
-<p align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/sujanlama/sujanlama/output/github-contribution-grid-snake.svg" />
-
-</p>
-
----
-
-# ⚡ Fun Fact
-
-```python
-while True:
-    learn()
-    code()
-    build()
-    repeat()
-````
-
----
-
-# 🚀 Featured Projects
-
-| Project                   | Description                    |
-| ------------------------- | ------------------------------ |
-| QR Code Generator         | Generate QR codes using Python |
-| Student Management System | OOP based Python project       |
-| Django Blog App           | Blog application using Django  |
-| Portfolio Website         | Responsive personal portfolio  |
 
 ---
 
