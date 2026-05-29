@@ -15,14 +15,13 @@
 ---
 
 # 🚀 About Me
-
-- 🔭 Currently improving my development skills every day
-- 🌱 Learning **Full-Stack Development & Django**
-- 💡 Love building real-world applications
-- ⚡ Passionate about solving problems with code
-- 🎯 Goal: Become a professional software developer
-- 🧠 Building backend applications using Django
-- 📚 Exploring new technologies daily
+- 🔭 Continuously improving my development skills every day
+- 🌱 Currently learning Full-Stack Development with Django
+- 💡 Passionate about building real-world applications
+- ⚡ Enjoy solving problems through code
+- 🎯 Aspiring to become a professional software developer
+- 🧠 Developing backend applications using Django
+- 📚 Exploring new technologies and tools daily
 
 ---
 
