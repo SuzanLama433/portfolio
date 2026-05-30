@@ -73,20 +73,6 @@ while True:
     build()
     repeat()
 ````
-
----
-
-# 🚀 Featured Projects
-
-| Project                   | Description                    |
-| ------------------------- | ------------------------------ |
-| QR Code Generator         | Generate QR codes using Python |
-| Vehicle Management System | MERN Stack                     |
-| Django Blog App           | Blog application using Django  |
-| Portfolio Website         | Responsive personal portfolio  |
-
----
-
 ---
 
 <p align="center">
