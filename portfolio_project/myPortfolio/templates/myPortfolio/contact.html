@@ -84,7 +84,7 @@
 
                     <h3 class="mb-4">Send a Message</h3>
 
-                    <form method="POST">
+                    <form method="POST" action="{% url 'contact' %}">
                         {% csrf_token %}
 
                         <div class="mb-3">
@@ -93,7 +93,7 @@
                             </label>
 
                             <input
-                                type="text"
+                                type="text" name="name"
                                 class="form-control contact-input"
                                 placeholder="Enter your name">
                         </div>
@@ -104,7 +104,7 @@
                             </label>
 
                             <input
-                                type="email"
+                                type="email" name="email"
                                 class="form-control contact-input"
                                 placeholder="Enter your email">
                         </div>
@@ -115,7 +115,7 @@
                             </label>
 
                             <input
-                                type="text"
+                                type="text" name="subject"
                                 class="form-control contact-input"
                                 placeholder="Enter subject">
                         </div>
@@ -127,7 +127,7 @@
 
                             <textarea
                                 rows="6"
-                                class="form-control contact-input"
+                                class="form-control contact-input" name="message"
                                 placeholder="Write your message..."></textarea>
                         </div>
 
