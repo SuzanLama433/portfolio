@@ -21,11 +21,11 @@
         </p>
 
         <div class="mt-4">
-            <a href="#" class="btn btn-primary me-2 px-4 py-2">
+            <a href="{% url 'project' %}" class="btn btn-primary me-2 px-4 py-2">
                 View Projects
             </a>
 
-            <a href="#" class="btn btn-outline-info px-4 py-2">
+            <a href="{% url 'contact' %}" class="btn btn-outline-info px-4 py-2">
                 Contact Me
             </a>
         </div>
@@ -52,7 +52,7 @@
                     Currently improving my skills in Django, REST API, and system design.
                 </p>
 
-                <a href="#" class="btn btn-outline-info mt-2 px-3">
+                <a href="{% url 'about' %}" class="btn btn-outline-info mt-2 px-3">
                     Read More
                 </a>
             </div>
@@ -73,50 +73,6 @@
     </div>
 </section>
 
-<!-- ================= SKILLS ================= -->
-<section class="section dark-section text-center py-5">
-    <div class="container">
-
-        <h2 class="mb-4">My Skills</h2>
-
-        <div class="row g-3">
-
-            <div class="col-6 col-md-3">
-                <div class="skill-box">🐍 Python</div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="skill-box">🌐 Django</div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="skill-box">🗄️ Databases</div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="skill-box">🎨 HTML/CSS</div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="skill-box">⚡ JavaScript</div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="skill-box">🔧 Git/GitHub</div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="skill-box">🔐 Auth Systems</div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="skill-box">🚀 REST APIs</div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
 
 <!-- ================= PROJECTS ================= -->
 <section class="section py-5">
@@ -187,7 +143,7 @@
 
         </div>
 
-        <a href="#" class="btn btn-primary mt-4 px-4 py-2">
+        <a href="{% url 'project' %}" class="btn btn-primary mt-4 px-4 py-2">
             See All Projects
         </a>
 
@@ -201,7 +157,7 @@
         <h2>Let's build something amazing 🚀</h2>
 
         <p>
-            If you have a project idea, I’m ready to work with you.
+            If you have a project idea, I'm ready to work with you.
         </p>
 
         <a href="#" class="btn btn-success px-4 py-2">

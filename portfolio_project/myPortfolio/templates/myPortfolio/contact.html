@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- ================= CONTACT HERO ================= -->
+<section class="section text-center">
+    <div class="container">
+
+        <h1 class="mb-3">Get In Touch</h1>
+
+        <p class="section-text">
+            Have a project idea, collaboration opportunity, or just want to connect?
+            I'd love to hear from you.
+        </p>
+
+    </div>
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="section">
+    <div class="container">
+
+        <div class="row g-5">
+
+            <!-- Contact Info -->
+            <div class="col-lg-5">
+
+                <div class="contact-card">
+
+                    <h3 class="mb-4">Contact Information</h3>
+
+                    <div class="contact-item">
+                        <h6>📧 Email</h6>
+                        <p>sujanlama2323@gmail.com</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h6>📱 Phone</h6>
+                        <p>+977-9862490193</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h6>📍 Location</h6>
+                        <p>Bajrabarahi-lalitpur, Nepal</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h6>💼 Availability</h6>
+                        <p>Open to internships and freelance opportunities.</p>
+                    </div>
+
+                </div>
+
+                <!-- Social Links -->
+                <div class="contact-card mt-4">
+
+                    <h4 class="mb-3">Connect With Me</h4>
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/SuzanLama433" target="_blank" class="social-btn">
+                            GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/sujan-lama-691930377/" target="_blank" class="social-btn">
+                            LinkedIn
+                        </a>
+
+                        <a href="https://www.facebook.com/suzann.tamang.204773" target="_blank" class="social-btn">
+                            Facebook
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-7">
+
+                <div class="contact-card">
+
+                    <h3 class="mb-4">Send a Message</h3>
+
+                    <form method="POST">
+                        {% csrf_token %}
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control contact-input"
+                                placeholder="Enter your name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control contact-input"
+                                placeholder="Enter your email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Subject
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control contact-input"
+                                placeholder="Enter subject">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Message
+                            </label>
+
+                            <textarea
+                                rows="6"
+                                class="form-control contact-input"
+                                placeholder="Write your message..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary px-4">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta text-center">
+    <div class="container">
+
+        <h2>Let's Build Something Great 🚀</h2>
+
+        <p class="mt-3">
+            I'm always excited to discuss new ideas, projects, and opportunities.
+        </p>
+
+    </div>
+</section>
+
+{% endblock content %}
