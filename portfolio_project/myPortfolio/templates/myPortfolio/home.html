@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block title %}
+    Home
+{% endblock title %}
+    
+
 {% block content %}
 
 <!-- ================= HERO SECTION ================= -->
@@ -97,7 +102,7 @@
                     <img src="{% static 'images/img1.png' %}" class="card-img-top" alt="Project 1">
 
                     <div class="card-body">
-                        <h5 class="card-title">Portfolio Website</h5>
+                        <h5 class="card-title text-info">Portfolio Website</h5>
                         <p class="card-text">
                             A modern Django portfolio with blog and resume system.
                         </p>
@@ -114,7 +119,7 @@
                     <img src="{% static 'images/img1.png' %}" class="card-img-top" alt="Project 2">
 
                     <div class="card-body">
-                        <h5 class="card-title">Todo App</h5>
+                        <h5 class="card-title text-info ">Todo App</h5>
                         <p class="card-text">
                             Task management system with Django CRUD operations.
                         </p>
@@ -131,7 +136,7 @@
                     <img src="{% static 'images/img1.png' %}" class="card-img-top" alt="Project 3">
 
                     <div class="card-body">
-                        <h5 class="card-title">Blog Platform</h5>
+                        <h5 class="card-title text-info">Blog Platform</h5>
                         <p class="card-text">
                             Full blog system with authentication and admin panel.
                         </p>

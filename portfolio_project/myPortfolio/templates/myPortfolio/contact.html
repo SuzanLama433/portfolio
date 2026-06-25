@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block title %}
+    contact
+{% endblock title %}
+    
+
 {% block content %}
 
 <!-- ================= CONTACT HERO ================= -->
@@ -95,7 +100,7 @@
                             <input
                                 type="text" name="name"
                                 class="form-control contact-input"
-                                placeholder="Enter your name">
+                                placeholder="Enter your name" required>
                         </div>
 
                         <div class="mb-3">
@@ -106,7 +111,7 @@
                             <input
                                 type="email" name="email"
                                 class="form-control contact-input"
-                                placeholder="Enter your email">
+                                placeholder="Enter your email" required>
                         </div>
 
                         <div class="mb-3">
@@ -117,7 +122,7 @@
                             <input
                                 type="text" name="subject"
                                 class="form-control contact-input"
-                                placeholder="Enter subject">
+                                placeholder="Enter subject" required>
                         </div>
 
                         <div class="mb-3">
@@ -128,7 +133,7 @@
                             <textarea
                                 rows="6"
                                 class="form-control contact-input" name="message"
-                                placeholder="Write your message..."></textarea>
+                                placeholder="Write your message..." required></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-primary px-4">

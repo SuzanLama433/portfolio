@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block title %}
+about
+    
+{% endblock title %}
+    
+
 {% block content %}
 
 <!-- ================= ABOUT HERO ================= -->
@@ -38,7 +44,7 @@
                 </p>
 
                 <div class="mt-4">
-                    <a href="#" class="btn btn-primary me-2">
+                    <a href="{% url 'contact' %}" class="btn btn-primary me-2">
                         Contact Me
                     </a>
 
@@ -189,7 +195,7 @@
 
             <div class="col-md-3 col-6">
                 <div class="skill-card">
-                    <h5>🛠 Git</h5>
+                    <h5>🛠 Git/Githubs</h5>
                 </div>
             </div>
 
@@ -261,7 +267,7 @@
             as a software engineer.
         </p>
 
-        <a href="#" class="btn btn-success mt-3">
+        <a href="{% url 'contact' %}" class="btn btn-success mt-3">
             Let's Connect
         </a>
 

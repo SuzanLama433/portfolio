@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block title %}
+    projects
+{% endblock title %}
+    
+
 
 {% block content %}
 <!-- ================= PROJECTS ================= -->
@@ -15,7 +20,7 @@
         </div>
 
         <div class="row g-4">
-            <!-- Project 1 -->
+            <!-- Projects  -->
             {% for project in data  %}
             <div class="col-lg-4 col-md-6 d-flex">
 
@@ -35,7 +40,7 @@
 
                         <div class="project-tags mb-3">
                             {% for tech in project.technologies.split %}
-                            <span>{{ tech }}</span>
+                            <span class="text-light">{{ tech }}</span>
                             {% endfor %}
                         </div>
 
