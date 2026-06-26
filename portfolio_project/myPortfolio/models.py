@@ -27,5 +27,71 @@ class Project(models.Model):
     
     def __str__(self):
         return self.title
+    
+class Journey(models.Model):
+    title = models.CharField(max_length=200)
+    subtitle = models.CharField(max_length=200)
+    paragraph1 = models.TextField()
+    paragraph2 = models.TextField()
+    paragraph3 = models.TextField()
+    
+    def __str__(self):
+        return self.title
 
+class Education(models.Model):
+    year = models.CharField(max_length=50)
+    degree = models.CharField(max_length=200)
+    institution = models.CharField(max_length=200)
+    description = models.TextField()
+    order = models.PositiveIntegerField(default=0)
+
+    class Meta:
+        ordering = ["order"]
+
+    def __str__(self):
+        return f"{self.degree} ({self.year})"
+
+class SkillCategory(models.Model):
+    title = models.CharField(max_length=100)
+    icon = models.CharField(
+        max_length=20,
+        blank=True,
+        help_text="Example: 🚀, 🎨, 🗄️"
+    )
+    order = models.PositiveIntegerField(default=0)
+
+    class Meta:
+        ordering = ["order"]
+        verbose_name_plural = "Skill Categories"
+
+    def __str__(self):
+        return self.title
+
+
+class Skill(models.Model):
+    category = models.ForeignKey(
+        SkillCategory,
+        on_delete=models.CASCADE,
+        related_name="skills",
+        null=True,
+        blank=True
+
+    )
+    name = models.CharField(max_length=100)
+    order = models.PositiveIntegerField(default=0)
+
+    class Meta:
+        ordering = ["order"]
+
+    def __str__(self):
+        return self.name
+    
+class MyContact(models.Model):
+    email = models.EmailField()
+    phone = models.CharField()
+    location = models.CharField(max_length=100)
+    availability = models.CharField()
+    
+    def __str__(self):
+        return self.email
     

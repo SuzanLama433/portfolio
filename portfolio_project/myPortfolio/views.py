@@ -8,10 +8,16 @@ def home (request):
     return render(request,'myPortfolio/home.html')
 
 def about(request):
-    return render(request,'myPortfolio/about.html')
+    context = {
+        "journey": Journey.objects.first(),
+        "education": Education.objects.all(),
+        "skill": Skill.objects.all(),
+    }
+    return render(request,'myPortfolio/about.html',context)
 
 def skills(request):
-    return render(request,'myPortfolio/skills.html')
+    categories = SkillCategory.objects.prefetch_related("skills")
+    return render(request,'myPortfolio/skills.html',{'categories':categories})
 
 def project(request):
     searched = request.GET.get("searched")
@@ -22,6 +28,7 @@ def project(request):
     return render(request,'myPortfolio/projects.html',{'data':data})
 
 def contact(request):
+    contact_info = MyContact.objects.first()
     if request.method == "POST":
         name = request.POST['name']
         email = request.POST['email']
@@ -30,4 +37,4 @@ def contact(request):
         Contact.objects.create(name=name,email=email,subject=subject,message=message)
         messages.success(request,f' Hi {name} your message is submited ')
         return redirect('contact')
-    return render(request,'myPortfolio/contact.html')
+    return render(request,'myPortfolio/contact.html',{'contact':contact_info})

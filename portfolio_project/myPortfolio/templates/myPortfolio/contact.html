@@ -2,9 +2,9 @@
 {% load static %}
 
 {% block title %}
-    contact
+contact
 {% endblock title %}
-    
+
 
 {% block content %}
 
@@ -37,22 +37,22 @@
 
                     <div class="contact-item">
                         <h6>📧 Email</h6>
-                        <p>sujanlama2323@gmail.com</p>
+                        <p>{{contact.email}}</p>
                     </div>
 
                     <div class="contact-item">
                         <h6>📱 Phone</h6>
-                        <p>+977-9862490193</p>
+                        <p>{{contact.phone}}</p>
                     </div>
 
                     <div class="contact-item">
                         <h6>📍 Location</h6>
-                        <p>Bajrabarahi-lalitpur, Nepal</p>
+                        <p>{{contact.location}}</p>
                     </div>
 
                     <div class="contact-item">
                         <h6>💼 Availability</h6>
-                        <p>Open to internships and freelance opportunities.</p>
+                        <p>{{contact.availability}}</p>
                     </div>
 
                 </div>
@@ -97,9 +97,7 @@
                                 Full Name
                             </label>
 
-                            <input
-                                type="text" name="name"
-                                class="form-control contact-input"
+                            <input type="text" name="name" class="form-control contact-input"
                                 placeholder="Enter your name" required>
                         </div>
 
@@ -108,9 +106,7 @@
                                 Email Address
                             </label>
 
-                            <input
-                                type="email" name="email"
-                                class="form-control contact-input"
+                            <input type="email" name="email" class="form-control contact-input"
                                 placeholder="Enter your email" required>
                         </div>
 
@@ -119,9 +115,7 @@
                                 Subject
                             </label>
 
-                            <input
-                                type="text" name="subject"
-                                class="form-control contact-input"
+                            <input type="text" name="subject" class="form-control contact-input"
                                 placeholder="Enter subject" required>
                         </div>
 
@@ -130,9 +124,7 @@
                                 Message
                             </label>
 
-                            <textarea
-                                rows="6"
-                                class="form-control contact-input" name="message"
+                            <textarea rows="6" class="form-control contact-input" name="message"
                                 placeholder="Write your message..." required></textarea>
                         </div>
 

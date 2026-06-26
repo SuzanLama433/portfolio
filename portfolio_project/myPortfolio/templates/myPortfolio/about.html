@@ -3,9 +3,9 @@
 
 {% block title %}
 about
-    
+
 {% endblock title %}
-    
+
 
 {% block content %}
 
@@ -65,27 +65,24 @@ about
     <div class="container">
 
         <div class="text-center mb-5">
-            <h2>My Journey</h2>
+            <h2>{{journey.title}}</h2>
             <p class="section-text">
-                From curiosity to development.
+                {{journey.subtitle}}
             </p>
         </div>
 
         <div class="journey-card">
 
             <p>
-                My programming journey started with a curiosity about how websites
-                and applications work behind the scenes.
+                {{journey.paragraph1}}
             </p>
 
             <p>
-                After learning Python, I discovered Django and became passionate
-                about backend development, databases, and creating real-world web applications.
+                {{journey.paragraph2}}
             </p>
 
             <p>
-                Today I continue learning advanced Django concepts, REST APIs,
-                software architecture, and modern web technologies.
+                {{journey.paragraph3}}
             </p>
 
         </div>
@@ -106,47 +103,22 @@ about
 
         <div class="timeline">
 
-            <!-- Bachelor's -->
+
+            {% for edu in education  %}
+
             <div class="education-card">
-                <span class="education-year">2022 - Present</span>
+                <span class="education-year">{{edu.year}}</span>
 
-                <h4>Bachelor's Degree in Information Technology</h4>
+                <h4>{{edu.degree}}</h4>
 
-                <h6>Nesfield International College, Kathmandu</h6>
+                <h6>{{edu.institution}}</h6>
 
                 <p>
-                    Currently pursuing a Bachelor of Computer Applications (BCA), with a strong interest in web
-                    development, programming, databases, networking, and software development.
+                    {{edu.description}}
                 </p>
             </div>
 
-            <!-- +2 -->
-            <div class="education-card">
-                <span class="education-year">2020 - 2022</span>
-
-                <h4>Higher Secondary Education (+2)</h4>
-
-                <h6>MOLISS</h6>
-
-                <p>
-                    Completed higher secondary education with a focus on
-                    computer science and mathematics.
-                </p>
-            </div>
-
-            <!-- SEE -->
-            <div class="education-card">
-                <span class="education-year">Completed 2020</span>
-
-                <h4>Secondary Education (SEE)</h4>
-
-                <h6>Shree Jana Jagriti Secondary School</h6>
-
-                <p>
-                    Built a strong foundation in science, mathematics,
-                    and analytical thinking.
-                </p>
-            </div>
+            {% endfor %}
 
         </div>
 
@@ -163,54 +135,13 @@ about
 
         <div class="row g-4">
 
+            {% for s in skill  %}
             <div class="col-md-3 col-6">
                 <div class="skill-card">
-                    <h5>🐍 Python</h5>
+                    <h5>{{s.icon}} {{s.name}}</h5>
                 </div>
             </div>
-
-            <div class="col-md-3 col-6">
-                <div class="skill-card">
-                    <h5>🌐 Django</h5>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="skill-card">
-                    <h5>💾 SQLite / MySQL</h5>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="skill-card">
-                    <h5>🎨 HTML/CSS</h5>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="skill-card">
-                    <h5>⚡ Bootstrap</h5>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="skill-card">
-                    <h5>🛠 Git/Githubs</h5>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="skill-card">
-                    <h5>🚀 REST APIs</h5>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="skill-card">
-                    <h5>🔐 Authentication</h5>
-                </div>
-            </div>
-
+            {% endfor %}
         </div>
 
     </div>
